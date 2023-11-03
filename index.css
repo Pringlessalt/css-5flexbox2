@@ -1,0 +1,193 @@
+* {
+ 
+}
+.container-1{
+    display: flex;
+    /*align-items: flex-end;
+    align-items: flex-start;
+    */
+    background: darkblue;
+    color: #ccc;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-shadow: 10px 10px 5px #888;
+}
+
+
+
+.container-1 div{
+    cursor: pointer;
+    padding:1px;
+}
+
+.home{
+    flex: 8;
+    order: 1;
+    text-align: end;
+}
+
+.about{
+    flex: 1;
+    order: 2;
+    text-align: center;
+}
+
+.pro{
+    flex: 1;
+    order: 3;
+    text-align: center;
+}
+
+.contact{
+    flex: 1;
+    order: 4;
+    text-align: center;
+}
+
+.container-2{
+    display: flex;
+    text-align: center;
+    box-shadow: 10px 10px 5px #888;
+    margin-top: 100px;
+    
+}
+
+.container-2 div:hover{
+    cursor: pointer;
+    background: lightgreen;
+    border-bottom: 5px solid darkgreen;
+}
+
+.container-2 div{
+    padding:5px;
+    
+    border: 1px solid gray;
+}
+
+.home-2{
+    flex: 1;
+}
+
+.blog{
+    flex: 1;
+}
+
+.work{
+    flex: 1;
+}
+
+.res{
+    flex: 1;
+}
+
+.meta{
+    flex: 1;
+}
+
+.container-3{
+    display: flex;
+    text-align: center;
+    box-shadow: 10px 10px 5px #888;
+    margin-top: 100px;
+    border: 1px solid black;  
+    background: black;
+    color: white;  
+}
+
+.container-3 div{
+    padding:5px;
+    font-size: small;
+    font-weight:lighter;
+}
+
+.img{
+    width: 100px;
+}
+
+.sear{
+    background-color: black;
+}
+
+i{
+    text-align: left;
+    background: darkred;
+   
+}
+
+.bx bx-search{
+    background: black;
+    color: white;
+    
+    border-radius: 3px;
+    padding: 1px;
+    
+}
+
+.home-3{
+    flex: 1;
+}
+
+.about-3{
+    flex: 1;
+}
+
+.Blogs-3{
+    flex: 1;
+}
+
+.contact-3{
+    flex: 1;
+}
+
+.feedback-3{
+    flex: 3;
+    text-align: left;
+}
+
+.s{
+    margin-top: 12px;
+ 
+}
+
+.container-4{
+    display: flex;
+    background: darkred;
+    margin-top: 100px;
+    box-shadow: 10px 5px 10px #888;
+    color: white;
+    text-align: center;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-4{
+    flex: 1;
+}
+
+.about-4{
+    flex: 1;
+}
+
+.teams-4{
+    flex: 1;
+}
+
+.services-4{
+    flex: 1;
+}
+
+.contact-4{
+    flex: 1;
+}
+.blog-4{
+    flex: 1;
+}
+
+.icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 2rem;
+    padding: 0px 40px;
+}
+
